@@ -1,3 +1,6 @@
+.navbar {
+  border-bottom: solid 1px #0f4e95;
+}
 .hero {
   color: #0f4e95;
 }
@@ -26,19 +29,28 @@ h3.mx-auto.intro-header {
 }
 .img-fluid.headshot, .card.mx-auto.headshot-card {
   border-radius: 15px;
+
+}
+.img-fluid.headshot {
+  border: solid 1px #0f4e95;
 }
 
 .intro {
   margin-top: 10px;
 }
 
-.project {
+.card.project {
   margin-top: 20px;
+  border: solid 1px;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+img.card-img-top {
+  padding: 10px;
 }
 .contact {
   padding: 5px;
