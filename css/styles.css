@@ -28,16 +28,14 @@ h3.mx-auto.intro-header {
   margin-top: 5px;
 }
 .headshot, .card.mx-auto.headshot-card {
-  border-radius: 15px;
+  border: none;
 
 }
-.headshot {
-  border: solid 1px #0f4e95;
-  border-radius: 15px;
-}
+
 
 .card-img-top.headshot {
-  border-radius: 15px;
+  border: solid 1px #0f4e95;
+  border-radius: 10px;
   padding: 0;
 }
 
