@@ -1,22 +1,27 @@
-.navbar {
-  border-bottom: solid 1px #0f4e95;
-}
-.hero {
-  color: #0f4e95;
-}
-
 .intro {
   margin-top: 10px;
+  color: #005ebf;
 }
 
 .mdi::before {
-  color: blue;
+  color: white;
+}
+
+.footer {
+  color: white;
+  padding: 15px;
+  border-top: solid;
+}
+.secondary {
+  background-color: #30aafe;
+  color: white;
 }
 
 .image-box {
   height: 200px;
   width: 200px;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }
 
 .content-box {
@@ -24,7 +29,6 @@
 }
 
 .project {
-  border: solid 1px black;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -32,9 +36,16 @@
   padding-bottom: 50px;
 }
 
+.project:not(.secondary) {
+  color: #005ebf;
+}
+
 .project-image {
   text-align: center;
   margin-bottom: 20px;
+  height: 250px;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }
 
 .project-text {
