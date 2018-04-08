@@ -12,7 +12,8 @@
   padding: 15px;
   border-top: solid;
 }
-.secondary {
+.secondary,
+.secondary a {
   background-color: #30aafe;
   color: white;
 }
@@ -36,7 +37,8 @@
   padding-bottom: 50px;
 }
 
-.project:not(.secondary) {
+.project:not(.secondary),
+.project:not(.secondary) a {
   color: #005ebf;
 }
 
