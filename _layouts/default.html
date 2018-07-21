@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ page.title }}</title>
-    <!-- link to main stylesheet -->
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-  </head>
-  <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/cv">CV</a></li>
-            <li><a href="/blog">Blog</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-    
+
+<head>
+  <title>{{ page.title }}</title>
+  <!-- link to main stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/about">About</a>
+      </li>
+      <li>
+        <a href="/cv">CV</a>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="container">
+
     {{ content }}
-    
-    </div><!-- /.container -->
-    <footer>
-        <ul>
-            <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-            <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-      </ul>
-    </footer>
-    <script>
-      console.log("hey!")
-    </script>
-  </body>
+
+  </div>
+  <!-- /.container -->
+  <footer>
+    <ul>
+      <li>
+        <a href="mailto:hankquinlanhub@gmail.com">email</a>
+      </li>
+      <li>
+        <a href="https://github.com/hankquinlan">github.com/hankquinlan</a>
+      </li>
+    </ul>
+  </footer>
+  <script>
+    console.log("hey!")
+    if (window.location.pathname.includes('heroku')) {
+      window.location.replace('https://youtu.be/MxfxiR8TVNU')
+    }
+    if (window.location.pathname.includes('youtube')) {
+      window.location.replace('https://www.youtube.com/channel/UCUm0chMKj4MA7q9CWZXWhiA')
+    }
+  </script>
+</body>
+
 </html>
