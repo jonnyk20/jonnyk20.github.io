@@ -3,18 +3,24 @@
   color: #005ebf;
 }
 
+.intro .image-box {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .mdi::before {
-  color: white;
+  color: #97d4ff;
+  /* test */
 }
 
 .footer {
-  color: white;
+  color: #97d4ff;
   padding: 15px;
   border-top: solid;
 }
 .secondary,
 .secondary a {
-  background-color: #30aafe;
+  background-color: #97d4ff;
   color: white;
 }
 
@@ -62,10 +68,16 @@
 }
 
 .project-description {
-  padding: 15px;
+  padding: 15px 50px;
+  text-align: center;
 }
 
 .social-button-container {
   display: flex;
   justify-content: center;
 }
+
+.col-md-12 {
+  padding-right: 0 !important;
+}
+
