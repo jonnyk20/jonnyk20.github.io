@@ -1,20 +1,6 @@
 {
   "projects": [
     {
-      "title": "Names Challenge",
-      "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/names-challenge.jpg",
-      "description": "I learned Flutter in order to build myself an app to get better at remembering people's names.",
-      "project_url": "https://itunes.apple.com/us/app/names-challenge/id1450894774?ls=1&mt=8",
-      "code_url": "https://github.com/jonnyk20/names-challenge-app"
-    },
-    {
-      "title": "Oxcord",
-      "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/flexride-screen.png",
-      "description": "An app democratize music selection at parties, using Spotify's API.",
-      "project_url": "http://oxcord.io",
-      "code_url": "https://github.com/jonnyk20/oxcord"
-    },
-    {
       "title": "Youtube Tutorials",
       "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/youtube-screen.png",
       "description": "My most popular content. Here is where I post long-form tutorials to accompany my Medium articles.",
@@ -22,11 +8,25 @@
       "code_url": ""
     },
     {
+      "title": "Names Challenge",
+      "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/names-challenge.jpg",
+      "description": "I learned Flutter in order to build myself an app to get better at remembering people's names.",
+      "project_url": "https://itunes.apple.com/us/app/names-challenge/id1450894774?ls=1&mt=8",
+      "code_url": "https://github.com/jonnyk20/names-challenge-app"
+    },
+    {
       "title": "Saiyan Says",
       "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/images/saiyan-says.png",
       "description": " My final project for FreeCodeCamp. A Dragon Ball Z themed Simon-Says game.",
       "project_url": "https://codepen.io/jonnnyk20/full/XaPqrR/",
       "code_url": "https://codepen.io/jonnnyk20/full/XaPqrR/"
+    },
+    {
+      "title": "Oxcord",
+      "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/flexride-screen.png",
+      "description": "An app democratize music selection at parties, using Spotify's API.",
+      "project_url": "http://oxcord.io",
+      "code_url": "https://github.com/jonnyk20/oxcord"
     }
   ]
 }
