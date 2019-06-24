@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "./Image"
+// import Image from "./Image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const color = "#1f96f3"

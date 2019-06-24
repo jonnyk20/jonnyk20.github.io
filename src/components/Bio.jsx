@@ -1,5 +1,5 @@
 import React from "react"
-import Image from "./Image"
+// import Image from "./Image"
 
 const Bio = () => (
   <div className="bio">
@@ -7,7 +7,7 @@ const Bio = () => (
       <img
         class="img-fluid"
         src="https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/profile.jpg"
-        alt="bio image"
+        alt="Jonny Kalambay"
       />
     </div>
     <div className="bio__info">

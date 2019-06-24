@@ -1,12 +1,12 @@
 import React from "react"
-import Image from "../Image"
+// import Image from "../Image"
 
-const isNil = str => !str || str == ""
+const isNil = str => !str || str === ""
 
 const Project = ({ project }) => (
   <div className="project">
     <div className="project__image">
-      <img src={project.image_url} />
+      <img src={project.image_url} alt="pone of my projects" />
     </div>
     <div className="project__info">
       <h3>{project.title}</h3>
