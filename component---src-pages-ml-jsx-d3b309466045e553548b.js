@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{143:function(n,t,o){"use strict";o.r(t);o(35);var e=o(7),i=o.n(e),r=o(0),c=o.n(r),p=function(n){function t(){return n.apply(this,arguments)||this}i()(t,n);var o=t.prototype;return o.componentDidMount=function(){window.location.replace("/intro-to-ml.pdf")},o.render=function(){return c.a.createElement("div",null,"Redirecting to slides")},t}(r.Component);t.default=p}}]);
+//# sourceMappingURL=component---src-pages-ml-jsx-d3b309466045e553548b.js.map
