@@ -1,11 +1,25 @@
 {
   "projects": [
     {
+      "title": "Deiscovering Animals with Machine Learning and Javascript",
+      "image_url": "https://jonnyk-misc.s3.ca-central-1.amazonaws.com/portfolio/jellyphil.png",
+      "description": "JS Conf Japan Presentation I gave, walking through the basics of machine learning and how to implement it in Japascript to identify animals.",
+      "project_url": "https://docs.google.com/presentation/d/1Hu8EBJrerANJhxkRSlgOPqbTbdVWfp6LYbbyLRD398o/edit?usp=sharing",
+      "code_url": "https://github.com/jonnyk20/tf-js-dog-scope"
+    },
+    {
       "title": "Youtube Tutorials",
       "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/youtube-screen.png",
-      "description": "My most popular content. Here is where I post long-form tutorials to accompany my Medium articles.",
+      "description": "Here is where I post long-form tutorials to accompany my Medium articles.",
       "project_url": "https://www.youtube.com/channel/UCUm0chMKj4MA7q9CWZXWhiA",
       "code_url": ""
+    },
+    {
+      "title": "Dog Scope",
+      "image_url": "https://jonnyk-misc.s3.ca-central-1.amazonaws.com/portfolio/dog-scope.png",
+      "description": "Basically Pokemon Go, but for catching dogs in real life.",
+      "project_url": "https://apps.apple.com/us/app/dog-scope/id1469847835",
+      "code_url": "https://github.com/jonnyk20/animal_id/watchers"
     },
     {
       "title": "Names Challenge",
@@ -20,13 +34,6 @@
       "description": " My final project for FreeCodeCamp. A Dragon Ball Z themed Simon-Says game.",
       "project_url": "https://codepen.io/jonnnyk20/full/XaPqrR/",
       "code_url": "https://codepen.io/jonnnyk20/full/XaPqrR/"
-    },
-    {
-      "title": "Oxcord",
-      "image_url": "https://s3.ca-central-1.amazonaws.com/jonnyk-misc/portfolio/flexride-screen.png",
-      "description": "An app democratize music selection at parties, using Spotify's API.",
-      "project_url": "http://oxcord.io",
-      "code_url": "https://github.com/jonnyk20/oxcord"
     }
   ]
 }

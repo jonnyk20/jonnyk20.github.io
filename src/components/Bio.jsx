@@ -12,7 +12,7 @@ const Bio = () => (
     </div>
     <div className="bio__info">
       <p>
-        I'm a web developer with a passion for technology and cultures. I also
+        I'm a web developer at <a href="https://www.zenhub.com/">Zenhub</a> and an instructor at <a href="https://www.lighthouselabs.ca/">Lighthouse Labs</a>, with a passion for technology and cultures. I also
         make tutorials on Medium and Youtube. When I'm not coding, I enjoy
         studying languages, being in nature and taking care of my pet turtle
         Roshi. Check out some of my projects below!

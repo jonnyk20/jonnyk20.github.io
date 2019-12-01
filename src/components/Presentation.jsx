@@ -3,7 +3,7 @@ import React from "react"
 
 const isNil = str => !str || str === ""
 
-const Project = ({ project }) => (
+const Presentation = ({ project }) => (
   <div className="project">
     <div className="project__image">
       <img src={project.image_url} alt="pone of my projects" />
@@ -25,4 +25,4 @@ const Project = ({ project }) => (
   </div>
 )
 
-export default Project
+export default Presentation
